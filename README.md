@@ -23,7 +23,7 @@
 - When finished, submit a pull request into the `dev` branch of repository.
 
 ### Notes
-- Design in Zeplin are using googlefont - https://fonts.google.com
+- Design in Zeplin is using googlefont - https://fonts.google.com
 - Feel free to use any tools you feel necessary in order to meet requirements.
 - Use pre installed index.html file. You are allowed to restructure the app directories/files to fit your design philosophy.
 - Design does not need to be responsive, but try your best to stick to a 100% fluid width container.
