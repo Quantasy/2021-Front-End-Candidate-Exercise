@@ -7,23 +7,20 @@
 
 ### Setup
 
-1. Clone repository - in your project directory, run - `git clone git@github.com:Quantasy/project-template-web-2.0.git`
+1. Clone repository - in your project directory, run - `git clone https://github.com/Quantasy/2021-Front-End-Candidate-Exercise.git`
 
 ### Init Vagrant box
 
-1. Go to project root
-2. run `vagrant up`
-3. go to `http://192.168.33.10`
-
-<br /><br />
+1. Go to project root in terminal
+2. Run `vagrant up`
+3. On your browser, go to `http://192.168.33.10`
 
 # Instructions
 
-- Create a new branch off `master` and call your branch `iterate-json-data`
+- Create a new branch in the repository off `master` and call your branch `iterate-json-data`
 - Retrieve the data from this endpoint - `[endoint-here]`
     - create a loop through this data and theme it like the attached zeplin file - `[zeplin-link-here]`
 - When finished, submit a pull request into the `dev` branch of repository.
-
 
 ### Notes
 - Feel free to use any tools you feel necessary in order to meet requirements.
