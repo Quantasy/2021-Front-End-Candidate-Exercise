@@ -18,7 +18,7 @@
 # Instructions
 
 - Create a new branch in the repository off `master` and call your branch `iterate-json-data`
-- Retrieve the data from this endpoint - `https://quantasy-sandbox.s3.amazonaws.com/front-end-coding-exercise/posts.json`
+- Retrieve the json data from this endpoint - `https://quantasy-sandbox.s3.amazonaws.com/front-end-coding-exercise/posts.json`
     - create a loop through this data and theme it like the attached zeplin file - `[zeplin-link-here]`
 - When finished, submit a pull request into the `dev` branch of repository.
 
