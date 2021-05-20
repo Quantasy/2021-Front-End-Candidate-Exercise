@@ -18,11 +18,12 @@
 # Instructions
 
 - Create a new branch in the repository off `master` and call your branch `iterate-json-data`
-- Retrieve the data from this endpoint - `[endoint-here]`
+- Retrieve the data from this endpoint - `https://quantasy-sandbox.s3.amazonaws.com/front-end-coding-exercise/posts.json`
     - create a loop through this data and theme it like the attached zeplin file - `[zeplin-link-here]`
 - When finished, submit a pull request into the `dev` branch of repository.
 
 ### Notes
+- Design in Zeplin are using googlefont - https://fonts.google.com
 - Feel free to use any tools you feel necessary in order to meet requirements.
 - Use pre installed index.html file. You are allowed to restructure the app directories/files to fit your design philosophy.
 - Design does not need to be responsive, but try your best to stick to a 100% fluid width container.
