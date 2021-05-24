@@ -1,3 +1,129 @@
+:root {
+	font-size: 62%;
+	--font-size-small: 1.2rem;
+	--font-size-regular: 1.4rem;
+	--font-size-large: 1.5rem;
+	--font-weight-normal: normal;
+	--font-weight-bold: bold;
+	--text-color: #636372;
+	--title-color: #06061b;
+	--default-color: #fff;
+}
+
 html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body, p, h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	width: 100%;
+	height: 100%;
+}
+
+.posts_container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(426px, 1fr));
+	grid-template-rows: repeat(2, 1fr);
+	column-gap: 30px;
+	row-gap: 68px;
+	padding: 100px 50px 67px;
+	background-color: #f9f9f6;
+}
+
+.post {
+	position: relative;
+}
+
+.post_date {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	display: block;
+	padding: 6px 10px;
+  margin: 0 0 1px;
+  border-radius: 13.5px;
+  background-color: rgba(6, 6, 27, 0.31);
+	color: var(--default-color);
+	font-size: var(--font-size-small);
+	font-weight: var(--font-weight-bold);
+}
+
+.post_pic {
+	height: 240px;
+	width: 100%;
+	border: 2px solid #000;
+}
+
+.post_title {
+	margin-top: 15px;
+	font-size: var(--font-size-large);
+	font-weight: var(--font-weight-bold);
+	color: var(--title-color);
+}
+
+.post_description {
+	margin-top: 5px;
+	font-size: var(--font-size-regular);
+	font-weight: var(--font-weight-normal);
+	color: var(--text-color);
+}
+
+@media only screen and (max-width: 1024px) { 
+
+	.posts_container {
+		grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+		row-gap: 50px;
+	}
+	.post_pic {
+		height: 240px;
+		width: 100%;
+		border: 2px solid #000;
+	}
+
+}
+
+@media only screen and (max-width: 836px) { 
+
+	.posts_container {
+		grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+		row-gap: 50px;
+	}
+
+}
+
+@media only screen and (max-width: 826px) { 
+
+	.posts_container {
+		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+		row-gap: 50px;
+	}
+
+}
+
+@media only screen and (max-width: 786px) { 
+
+	.posts_container {
+		grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+		row-gap: 50px;
+		padding: 100px 100px 67px;
+	}
+
+}
+
+@media only screen and (max-width: 609px) { 
+
+	.posts_container {
+		grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+		row-gap: 50px;
+		padding: 50px 30px;
+	}
 
 }
