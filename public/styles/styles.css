@@ -50,9 +50,9 @@ body, p, h2, a {
 	top: 15px;
 	display: block;
 	padding: 6px 10px;
-  margin: 0 0 1px;
-  border-radius: 13.5px;
-  background-color: rgba(6, 6, 27, 0.31);
+	margin: 0 0 1px;
+	border-radius: 13.5px;
+	background-color: rgba(6, 6, 27, 0.31);
 	color: var(--default-color);
 	font-size: var(--font-size-small);
 	font-weight: var(--font-weight-bold);
